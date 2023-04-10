@@ -1,0 +1,34 @@
+{
+    "name": "mouseScroll",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f3011697-5c7e-4e7a-b95c-dd4d3ea7d454",
+            "actions": [
+                {
+                    "name": "MouseScrollY",
+                    "type": "PassThrough",
+                    "id": "d2d0e8e8-6982-4c9a-9573-f7ab65927b6a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8919356a-092a-48f3-9576-04cf86047b7a",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseScrollY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
